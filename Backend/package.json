@@ -5,6 +5,9 @@
   "scripts": {
     "start": "nodemon index.js"
   },
+  "scripts": {
+  "postinstall": "npm rebuild bcrypt"
+},
   "author": "",
   "license": "ISC",
   "description": "",
